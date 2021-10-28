@@ -74,7 +74,7 @@ class ForgetPasswordPage extends Component {
 
                                             <div className="mt-5 text-center">
                                                 <p>Don't have an account ? <Link to="/login" className="font-weight-medium text-primary"> Log in </Link> </p>
-                                                <p>© 2021 Extern Finder. Crafted with <i className="mdi mdi-heart text-danger"></i> by Peter</p>
+                                                <p>© 2021 Extern Finder. Crafted with <i className="mdi mdi-heart text-danger"></i> by Power-JH</p>
                                             </div>
                                         </div>
 
