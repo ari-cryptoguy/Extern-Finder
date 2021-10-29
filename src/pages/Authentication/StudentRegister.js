@@ -3,7 +3,7 @@ import { Row, Col, Card, CardBody, TabContent, TabPane, NavItem, NavLink, Label 
 
 import classnames from 'classnames';
 import { Link } from "react-router-dom";
-import Dropzone from "react-dropzone";
+// import Dropzone from "react-dropzone";
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
@@ -77,7 +77,7 @@ tog_standard() {
     this.removeBodyCss();
 };
 handleSelectGroup = selectedGroup => {
-    if(selectedGroup.value == 'NotRegistered')
+    if(selectedGroup.value === 'NotRegistered')
         this.tog_standard();
     this.setState({ selectedGroup });
 };

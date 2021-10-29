@@ -3,11 +3,11 @@ import { Row, Col, Card, CardBody, TabContent, TabPane, NavItem, NavLink, Label 
 
 import classnames from 'classnames';
 import { Link } from "react-router-dom";
-import Dropzone from "react-dropzone";
+// import Dropzone from "react-dropzone";
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
-import FormUpload from "../Forms/FormUpload";
+// import FormUpload from "../Forms/FormUpload";
 import Select from "react-select";
 
 const optionGroup = [
@@ -83,7 +83,7 @@ tog_standard() {
     this.removeBodyCss();
 };
 handleSelectGroup = selectedGroup => {
-    if(selectedGroup.value == 'NotHere')
+    if(selectedGroup.value === 'NotHere')
         this.tog_standard();
     this.setState({ selectedGroup });
 };

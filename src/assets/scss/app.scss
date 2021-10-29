@@ -1,44 +1,15 @@
-/*
-Template Name: Nazox - Responsive Bootstrap 4 Admin Dashboard
-Author: Themesdesign
-Contact: themesdesign.in@gmail.com
-File: Main Css File
-*/
 
 
-/* TABLES OF CSS
 
-1. General
-2. Topbar
-3. Page Header
-4. Footer
-5. Right Sidebar
-6. Vertical
-7. Horizontal Nav
-8. Layouts
-9. Waves
-10. Avatar
-11. Helper
-12. Demos
-13. Plugins
-14. Authentication
-15. Email
-16. Coming Soon
-17. Timeline
-18. Extra Pages
-
-*/
-
-//Fonts
 @import "custom/fonts/fonts";
 
-//Core files
+
 @import "./node_modules/bootstrap/scss/functions";
 @import "./node_modules/bootstrap/scss/variables";
 @import "variables";
 @import "./node_modules/bootstrap/scss/mixins.scss";
 
-// Structure
+
 @import "custom/structure/general";
 @import "custom/structure/topbar";
 @import "custom/structure/page-head";
@@ -48,7 +19,7 @@ File: Main Css File
 @import "custom/structure/horizontal-nav";
 @import "custom/structure/layouts";
 
-// Components
+
 @import "custom/components/waves";
 @import "custom/components/avatar";
 @import "custom/components/accordion";
@@ -59,7 +30,7 @@ File: Main Css File
 @import "custom/components/demos";
 @import "custom/components/print";
 
-// Plugins
+
 @import "custom/plugins/custom-scrollbar";
 @import "custom/plugins/calendar";
 @import "custom/plugins/session-timeout";
@@ -84,7 +55,7 @@ File: Main Css File
 @import "custom/plugins/google-map";
 @import "custom/plugins/vector-maps";
 
-// Pages
+
 @import "custom/pages/authentication";
 @import "custom/pages/ecommerce";
 @import "custom/pages/email";

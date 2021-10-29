@@ -2,25 +2,25 @@ import React, { Component } from "react";
 import { Switch, BrowserRouter as Router } from "react-router-dom";
 import { connect } from "react-redux";
 
-// Import Routes
+
 import { authProtectedRoutes, publicRoutes } from "./routes/";
 import AppRoute from "./routes/route";
 
-// layouts
+
 import VerticalLayout from "./components/VerticalLayout/";
 import HorizontalLayout from "./components/HorizontalLayout/";
 import NonAuthLayout from "./components/NonAuthLayout";
 
-// Import scss
+
 import "./theme.scss";
 
-//Fake backend
+
 import fakeBackend from './helpers/AuthType/fakeBackend';
 
-//Firebase helper
+
 import { initFirebaseBackend } from "./helpers/firebase_helper";
 
-// Activating fake backend
+
 fakeBackend();
 
 const firebaseConfig = {
@@ -34,7 +34,7 @@ const firebaseConfig = {
 	measurementId: process.env.REACT_APP_MEASUREMENTID,
 };
   
-// init firebase backend
+
 initFirebaseBackend(firebaseConfig);
 
 class App extends Component {
@@ -44,9 +44,7 @@ class App extends Component {
 		this.getLayout = this.getLayout.bind(this);
 	}
  
- 	/**
-	 * Returns the layout
-	 */
+
 	getLayout = () => {
 		let layoutCls = VerticalLayout;
 

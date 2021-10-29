@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { Row, Col, Card, Form, CardBody, CardTitle, CardSubtitle,Container, Button } from "reactstrap";
+import { Row, Col, Card, Form, CardBody, CardTitle, CardSubtitle, Button } from "reactstrap";
 import Dropzone from "react-dropzone";
 
 // Breadcrumb
-import Breadcrumbs from '../../components/Common/Breadcrumb';
+// import Breadcrumbs from '../../components/Common/Breadcrumb';
 
 import { Link } from "react-router-dom";
 
